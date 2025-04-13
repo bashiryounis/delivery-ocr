@@ -120,37 +120,3 @@ To run the application in a Docker container:
 2. **Access the API**:
 
    Navigate to [http://localhost:8000/docs](http://localhost:8000/docs) to interact with the API.
-
-## 🧪 Testing
-
-You can use tools like [Postman](https://www.postman.com/) or `curl` to test the API endpoints. Ensure that the server is running and accessible at the specified host and port.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add your message here"
-   ```
-
-4. Push to your forked repository:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Open a pull request detailing your changes.
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
