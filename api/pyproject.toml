@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "delivery-ocr-service"
+version = "0.1.0"
+description = "A FastAPI service for delivery OCR using Google Gemini"
+authors = ["Younis Bashir (AI Engineer)"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.11.3"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+asyncpg = "^0.30.0"
+pydantic-settings = "^2.8.1"
+fsspec = "^2025.3.2"
+polygon = "^1.2.6"
+google-generativeai = "^0.8.4"
+aiofiles = "^24.1.0"
+python-multipart = "^0.0.20"
+google = "^3.0.0"
+pillow = "^11.2.1"
+google-genai = "^1.10.0"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
